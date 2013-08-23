@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PulseCheck", "PulseCheck\PulseCheck.csproj", "{0865C8B1-12CC-4A19-A54F-EDA1610B847D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{04F302AF-C4AD-4B8E-91C9-7E53EE7F9A1E}"
+EndProject
+Global
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = 3d722529-3d1d-4770-a8c5-07da1887021c
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0865C8B1-12CC-4A19-A54F-EDA1610B847D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0865C8B1-12CC-4A19-A54F-EDA1610B847D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0865C8B1-12CC-4A19-A54F-EDA1610B847D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0865C8B1-12CC-4A19-A54F-EDA1610B847D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04F302AF-C4AD-4B8E-91C9-7E53EE7F9A1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04F302AF-C4AD-4B8E-91C9-7E53EE7F9A1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04F302AF-C4AD-4B8E-91C9-7E53EE7F9A1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04F302AF-C4AD-4B8E-91C9-7E53EE7F9A1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

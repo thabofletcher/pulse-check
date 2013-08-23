@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/thabofletcher/pulse-check</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Initial NuGet release</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <tags>Performance check per Eric Lippert</tags>
+  </metadata>
+  <files>
+    <file src="bin\Release\*.dll" target="lib\net45" />
+  </files>
+</package>
