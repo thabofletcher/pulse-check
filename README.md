@@ -1,15 +1,24 @@
-http://tech.pro/blog/1293/c-performance-benchmark-mistakes-part-one
-http://tech.pro/tutorial/1295/c-performance-benchmark-mistakes-part-two
-http://tech.pro/tutorial/1317/c-performance-benchmark-mistakes-part-three
-http://tech.pro/tutorial/1433/performance-benchmark-mistakes-part-four
+Pulse Check
+================
 
-"Mistake #1: Choosing a bad metric."
-His Answer: "Average Execution Time"
+Unit Performance Benchmarking for .NET - simple extension methods based on Eric Lippert's best practices for benchmarking.
 
-"Mistake #2: Over-focusing on subsystem performance at the expense of end-to-end performance."
-Usually we are optimizing subsystems because we need to maximize performance in a bottleneck area. This one is hard to enforce at a code level.
+[Eric's Part 1](http://tech.pro/blog/1293/c-performance-benchmark-mistakes-part-one)
+
+[Eric's Part 2](http://tech.pro/tutorial/1295/c-performance-benchmark-mistakes-part-two)
+
+[Eric's Part 3](http://tech.pro/tutorial/1317/c-performance-benchmark-mistakes-part-three)
+
+[Eric's Part 4](http://tech.pro/tutorial/1433/performance-benchmark-mistakes-part-four)
+
+##Summary of article:
+
+"Mistake #1: Choosing a bad metric." === Use Average Execution Time
+
+"Mistake #2: Over-focusing on subsystem performance at the expense of end-to-end performance." -- Usually we are optimizing subsystems because we need to maximize performance in a bottleneck area. This one is hard to enforce at a code level.
 
 "Mistake #3: Running your benchmark in the debugger."
+
 "Mistake #4: Benchmarking the debug build instead of the release build."
 
 "Mistake #5: Using a clock instead of a stopwatch."
@@ -19,3 +28,27 @@ Usually we are optimizing subsystems because we need to maximize performance in 
 "Mistake #7: Assuming that runtime characteristics in one environment tell you what behavior will be in a different environment."
 
 "Mistake #8: Forget to take garbage collection effects into account."
+
+##License
+
+The MIT License (MIT)
+
+Copyright (c) 2013 Thabo Fletcher
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
