@@ -30,6 +30,10 @@ Unit Performance Benchmarking for .NET - simple extension methods based on Eric 
 
 "Mistake #8: Forget to take garbage collection effects into account."
 
+##Nuget Package
+
+    Install-Package PulseCheck
+
 ##Usage
 
     using PulseCheck.Performance;
