@@ -26,6 +26,7 @@ This library doesn't really do end to end. Sorry. Usually I am optimizing subsys
 "Mistake #5: Using a clock instead of a stopwatch."
 
 "Mistake #6: Treat the first run as nothing special when measuring average performance."
+Use GetAverageExecutionTime(), which ignores first run performance. GetExectionTime() wil get first run performance if you want it.
 
 "Mistake #7: Assuming that runtime characteristics in one environment tell you what behavior will be in a different environment."
 
