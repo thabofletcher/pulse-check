@@ -11,6 +11,7 @@ Unit Performance Benchmarking for .NET - simple extension methods based on Eric 
 
 [Eric's Part 4](http://tech.pro/tutorial/1433/performance-benchmark-mistakes-part-four)
 
+
 ##Summary of article:
 
 "Mistake #1: Choosing a bad metric." === Use Average Execution Time
@@ -28,6 +29,14 @@ Unit Performance Benchmarking for .NET - simple extension methods based on Eric 
 "Mistake #7: Assuming that runtime characteristics in one environment tell you what behavior will be in a different environment."
 
 "Mistake #8: Forget to take garbage collection effects into account."
+
+##Usage
+
+    using PulseCheck.Performance;
+
+    new Action(() => { }).GetAverageExecutionTime(1000);
+
+See Program.cs in Demo for more.
 
 ##License
 
