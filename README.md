@@ -16,7 +16,8 @@ Unit Performance Benchmarking for .NET - simple extension methods based on Eric 
 
 "Mistake #1: Choosing a bad metric." === Use Average Execution Time
 
-"Mistake #2: Over-focusing on subsystem performance at the expense of end-to-end performance." -- Usually we are optimizing subsystems because we need to maximize performance in a bottleneck area. This one is hard to enforce at a code level.
+"Mistake #2: Over-focusing on subsystem performance at the expense of end-to-end performance." 
+This library doesn't really do end to end. Sorry. Usually I am optimizing subsystems because I need to maximize performance in a bottleneck area.
 
 "Mistake #3: Running your benchmark in the debugger."
 
